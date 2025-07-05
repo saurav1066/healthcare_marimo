@@ -52,7 +52,7 @@ def _():
 @app.cell
 def _(pd):
     df =pd.read_csv('data/medical_appointment.csv')
-    df.head()
+    df
     return (df,)
 
 
